@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'demo01_hello_world'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=demo01_hello_world",
+                    "--package=demo01_hello_world"
+                ],
+                "filter": {
+                    "name": "demo01_hello_world",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'demo01_hello_world'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=demo01_hello_world",
+                    "--package=demo01_hello_world"
+                ],
+                "filter": {
+                    "name": "demo01_hello_world",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

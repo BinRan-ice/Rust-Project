@@ -1,0 +1,6 @@
+[package]
+name = "demo28_propagate_error"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

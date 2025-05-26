@@ -1,0 +1,6 @@
+[package]
+name = "demo52_patterns"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

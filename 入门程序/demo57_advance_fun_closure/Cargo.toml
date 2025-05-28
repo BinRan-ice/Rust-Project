@@ -1,0 +1,6 @@
+[package]
+name = "demo57_advance_fun_closure"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
